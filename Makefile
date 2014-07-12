@@ -17,6 +17,8 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
+THEME=/home/ubuntu/pelican_themes/pelican-octopress-theme
+
 S3_BUCKET=huevoblog
 
 CLOUDFILES_USERNAME=my_rackspace_username
