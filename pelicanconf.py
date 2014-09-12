@@ -15,7 +15,7 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
 
 THEME = '/home/ubuntu/pelican_themes/pelican-octopress-theme'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
@@ -31,7 +31,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('Github', 'https://github.com/huevosabio'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
