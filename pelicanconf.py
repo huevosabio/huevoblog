@@ -8,12 +8,12 @@ SITENAME = u'Huevosabio'
 SITEURL = ''
 
 PATH = 'content'
-PLUGIN_PATH = ["/home/ubuntu/pelican_plugins/pelican-plugins"]
+PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal','liquid_tags.youtube']
 
-THEME = '/home/ubuntu/pelican_themes/pelican-octopress-theme'
+THEME = 'pelican-octopress-theme'
 
 TIMEZONE = 'US/Pacific'
 
